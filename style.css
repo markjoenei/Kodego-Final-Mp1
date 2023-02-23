@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media(min-width: 1200px) {
+    .searchBar {
+        width: 50%;
+    }
+}
+
+.pb-3 {
+    font-family: 'Poppins';
+    font-size: 4rem;
+}
+
+.lead1 {
+    font-family: verdana;
+    color: black;
+    font-weight: 300;
+}
+
+.lead2 {
+    font-family: verdana;
+    color: black;
+    font-weight: 600;
+}
+
+.navbar {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.iconMain img {
+    width: 50px;
+    height: 40px;
+    color: white;
+}
