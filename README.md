@@ -6,7 +6,7 @@ Kodego-Wd51p-Mp1
 <h3 align="center">Created from scratch through out learning in Kodego Bootcamp</h3>
 <img align="center" alt="Coding" width="400" src="ILIGTAS PORTFOLIO.png">
 
-<a href="https://markjoeneilsalas.github.io/Kodego-Wd51p-Mp1/"> Live Website Preview </a>
+<a href="https://markjoeneilsalas.github.io/Kodego-Final-Mp1/"> Live Website Preview </a>
 
 
 <h3 align="left">Using</h3>
