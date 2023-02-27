@@ -84,6 +84,13 @@
     display: inline-flex;
 }
 /***** SearchBar *****/
+#button-addon3 {
+    color: rgb(0, 0, 0);
+}
+
+.searchBar {
+    color: rgb(0, 0, 0);
+}
 /***** End of Cancer Symptoms *****/
 
 
