@@ -79,7 +79,11 @@
 
 
 /***** Cancer Symptoms *****/
-
+/***** SearchBar *****/
+.buttoncancer1 {
+    display: inline-flex;
+}
+/***** SearchBar *****/
 /***** End of Cancer Symptoms *****/
 
 
