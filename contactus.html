@@ -46,7 +46,7 @@
               <a href="blog.html" class="nav-link">Blog</a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact Us</a>
+              <a href="contactus.html" class="nav-link">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -58,57 +58,78 @@
   <div class="container">
     <div class="d-lg-flex text-center align-items-center justify-content-between" data-aos="fade-up">
       <div>
-        <h1 class="pb-3 text-dark">About Us</h1>
+        <h1 class="pb-3 text-dark">Contact Us</h1>
       </div >
-        <img class="img-fluid w-50" src="aboutus.svg" alt="" data-aos="fade-left">
+        <img class="img-fluid w-50" src="contactus.svg" alt="" data-aos="fade-left">
       </div>
   </div>
 </section>
 
-  </header>
-<!---header end--->
+<section id="contact" class="contact bg-light">
+  <div class="container text-center">
 
-<hr class="container bg-danger border-2 border-top border-danger">
-
-<!---about--->    
-    <section id="about" class="p-5">
-      <div class="container">
-        <div class="row text-center align-items-center justify-content-between">
-          <div class="col-md ms-auto" data-aos="fade-right">
-            <img src="about.svg" alt="" class="img-fluid w-50">
-          </div>
-          <div class="col-md p-5" data-aos="fade-left">
-            <h2>About Us</h2>
-            <p class="lead">
-              This is my first mini-project, I proposed and developed this "Website" that will allow users to monitor their current health conditions, particularly those related to cancer. This website is non-profit, and the majority of those who visit it will find it useful. It also contains a lot of information about cancer diseases that will guide users on how to stop the disease from progressing to a fatal stage.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-<!---about end--->
-
-    <hr class="container bg-danger border-2 border-top border-danger">
-
-<!---developer start--->   
-<section id="about" class="p-5">
-  <div class="container">
-    <div class="row text-center align-items-center justify-content-between">
-      <div class="col-md ms-auto" data-aos="fade-right">
-        <h2>The Developer</h2>
-        <p class="lead">
-          Hello, I`am Mark Joeneil Salas, i'm from Tacloban City and I'm 27 years old. With a background in IT, I am a <i>future web developer</i> who self-taught myself the craft. I'm a management-focused BSBA graduate student currently enrolled in the program. My prior position was as a manager who also worked as a computer technician on the side.
-        </p>
-      </div>
-      <div class="col-md p-5">
-        <div class="col-md ms-auto" data-aos="fade-left">
-          <img src="profile.jpg" alt="" class="img-fluid rounded-circle w-50">
-        </div>
-      </div>
+    <div class="section-title">
+      <h2 class="pb-5 pt-5"><b>Contact Us</b></h2>
     </div>
   </div>
+
+  <div class="container">
+    <div class="row mt-5">
+
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location:</h4>
+            <p>Tacloban City</p>
+          </div>
+
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>markjoeneil.salas@gmail.com</p>
+          </div>
+
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Call:</h4>
+            <p>09053931024</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-8 mt-5 mt-lg-0">
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0" >
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3" >
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group mt-3" >
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3" >
+            <div class="error-message"></div>
+            <div class="sent-message"></div>
+          </div >
+          <div class="text-center"><a href="#" class="btn btn-primary mb-5" type="button">Submit</a></div>
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
 </section>
-<!---developer end---> 
     
       <!-- ======= Footer ======= -->
       <footer id="contact" class="bg-info pt-5">
@@ -172,12 +193,7 @@
           </div>
         <div class="container">
     
-          <div>
-            <div class="d-flex text-center">
-              <div class="col-lg mx-auto d-block">
-                <a href="#" class="back-to-top"><i class="bi bi-arrow-up-circle-fill fa-2x" style="font-size:50px"></i></a>
-              </div>
-            </div>
+          <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><img src="backtotop.png" alt="" class="back-to-top img-fuid rounded-circle"></a>
             
         
       </footer>
