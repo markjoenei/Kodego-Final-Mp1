@@ -2,16 +2,19 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
 /***** Index *****/
-
 * {
     font-family: 'Poppins', sans-serif;
 }
-
-@media(min-width: 1200px) {
-    .searchBar {
-        width: 50%;
-    }
+/***** fix the aos white space bug*****/
+html,
+body{
+width:100%;
+overflow-x:hidden;
 }
+
+/***** Index *****/
+    
+/***** Index *****/
 
 .pb-3 {
     font-family: 'Poppins';
@@ -65,7 +68,7 @@
 }
 
 .backgroundpara1 {
-    height: 50vh;
+    height: 55vh;
     width: 100vw;
     background-image: url("backgroundpara1.jpg");
     background-position: center;
@@ -84,6 +87,50 @@
     background-size: cover;
 }
 
+/***** tools *****/
+.tools {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.tools {
+    transition: background-color 0.3s;
+}
+.tools:hover {
+    background: #5bc0de;
+    color: rgb(255, 255, 255);
+}
+/***** about us *****/
+.textab  {
+    text-align: justify;
+}
+/***** lifestyle *****/
+.lifestyle {
+    padding-top: 0;
+    transition: background-color 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.lifestyle:hover {
+    background: #5bc0de;
+}
+.hospitalText{
+    text-align: justify;
+}
+/***** hospital *****/
+.carousel-inner {
+    border-radius: 1rem;
+}
+.buttonHospital {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/***** Donate now *****/
+.card {
+    transition: background-color 0.3s;
+}
+.card:hover {
+    background: #5bc0de;    
+}
+
 /***** End of Index *****/
 
 
@@ -98,6 +145,15 @@
 
 
 /***** Cancer Symptoms *****/
+.cancerimg {
+    transition: background-color 0.3s;
+    border-radius: 1rem;
+}
+
+.cancerimg:hover {
+    background: #5bc0de;    
+}
+
 /***** SearchBar *****/
 .buttoncancer1 {
     display: inline-flex;
@@ -117,7 +173,9 @@
 
 
 /***** Donate *****/
-
+.donateText {
+    text-align: justify;
+}
 /***** End of Donate *****/
 
 
@@ -135,5 +193,7 @@
 
 
 /***** Contact us *****/
-
+.terms {
+    text-align: justify;
+}
 /***** End of Contact us *****/
